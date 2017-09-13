@@ -5,7 +5,6 @@ Roadmap
 Минимальная версия инструментария
 ---------------------------------
 
-
 Валидация JSON Schema (выбрать готовый)
     https://www.npmjs.com/package/ajv (нет возможности написать nullable)
     https://www.npmjs.com/package/jsonschema
@@ -124,8 +123,10 @@ Roadmap
 
 Прикрутить дюк https://github.com/senchalabs/jsduck
 
-
-
+Сделать генератор сервера и клиента:
+	https://www.npmjs.com/package/generator-code
+	http://yeoman.io
+	https://github.com/yeoman/generator-generator
 
 
 Расширенная версия Продолжение инструментария
@@ -145,6 +146,5 @@ TODO факультатив:
 
     Отличный пример приложения под экспресс
     https://github.com/Microsoft/TypeScript-Node-Starter#typescript-node-starter
-
 
 
