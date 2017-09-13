@@ -5,6 +5,7 @@ Roadmap
 Минимальная версия инструментария
 ---------------------------------
 
+
 Валидация JSON Schema (выбрать готовый)
     https://www.npmjs.com/package/ajv (нет возможности написать nullable)
     https://www.npmjs.com/package/jsonschema
@@ -14,6 +15,9 @@ Roadmap
     https://github.com/playlyfe/themis Добавление ключевого слова есть, а остальное под вопросом
     https://github.com/korzio/djv (addFormat невнятный)
     https://github.com/AlexeyGrishin/schemasaurus Старый и странный
+
+	Реализация ключевого слова nullable для AJV:
+		https://github.com/epoberezkin/ajv/issues/486#issuecomment-327989030
 
     Списки валидаторов:
         https://github.com/ebdrup/json-schema-benchmark
@@ -25,6 +29,12 @@ Roadmap
         Проверить как добавлять ключевые слова на примере nullable и discriminator
         придумать способ хранения схем
             Например можно пользоваться конвертером https://github.com/chaliy/sequelize-json-schema
+
+Выбрать реализацию JSON Pointer и JSON Reference
+	https://tools.ietf.org/html/draft-pbryan-zyp-json-ref-03
+	https://tools.ietf.org/html/rfc6901
+	https://www.npmjs.com/search?q=JSON+Pointer
+
 
 Объектная модель JSON Schema
     А она нужна? 
